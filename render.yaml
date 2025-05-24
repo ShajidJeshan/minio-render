@@ -3,7 +3,7 @@ services:
     name: minio-free
     env: docker
     plan: free
-    region: oregon
+    region: singapore
     dockerfilePath: ./Dockerfile
     autoDeploy: true
     envVars:
